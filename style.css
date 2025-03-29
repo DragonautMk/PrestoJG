@@ -1,0 +1,36 @@
+/*
+Titoli:font-family: "Changa", sans-serif;
+resto:"Comfortaa", sans-serif;
+*/
+
+:root {
+  --y: rgba(255, 251, 5);
+  --b: rgba(23, 23, 23);
+  --w: rgba(233, 233, 233);
+}
+
+/* #region colors */
+.text-y {
+  color: var(--y);
+}
+.text-b {
+  color: var(--b);
+}
+.text-w {
+  color: var(--w);
+}
+.bg-y {
+  background-color: var(--y) !important;
+}
+.bg-b {
+  background-color: var(--b) !important;
+}
+.bg-w {
+  background-color: var(--w) !important;
+}
+/* #endregion */
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+}
